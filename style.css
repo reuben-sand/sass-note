@@ -1,0 +1,142 @@
+body {
+  background: hsl(270, 20%, 25%);
+  color: hsl(195, 20%, 65%);
+  font-family: "Exo 2", "Chocolate Classical Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: min-content minmax(min-content, 600px) 25%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header a {
+  color: hsl(195, 20%, 65%);
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nav-primary {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0;
+  justify-content: space-evenly;
+}
+.nav-primary a {
+  padding: 0.4em 0.8em;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+pre {
+  font-size: 16px;
+}
+pre ~ pre {
+  padding-left: 32px;
+  margin-left: 32px;
+  border-left: 2px dotted hsl(195, 20%, 65%);
+}
+
+.testColor {
+  color: white;
+  background-color: black;
+  border: 2px solid grey;
+}
+
+.each-test-grey {
+  background: grey;
+}
+
+.each-test-black {
+  background: black;
+}
+
+.for-test h4 {
+  font-size: 24px;
+  color: grey;
+  margin: 0;
+}
+.for-test h6 {
+  font-size: 36px;
+  color: black;
+  margin: 0;
+}
+
+.map-each-test1 {
+  color: green;
+}
+
+.map-each-test2 {
+  color: red;
+}
+
+.if-test-red {
+  color: red;
+}
+
+.if-test-green {
+  color: green;
+}
+
+.if-test-black {
+  color: black;
+}
+
+.container-color-test {
+  background: white;
+}
+
+.color-test1 {
+  color: purple;
+}
+
+.color-test2 {
+  color: #4e0080;
+}
+
+.color-test3 {
+  color: #803280;
+}
+
+.color-test4 {
+  color: #8000c0;
+}
+
+.color-test5 {
+  color: #150080;
+}
+
+.color-test6 {
+  color: #4d334d;
+}
+
+.color-test7 {
+  color: #cc00cc;
+}
+
+.color-test8 {
+  color: rgba(128, 0, 128, 0.5);
+}/*# sourceMappingURL=style.css.map */
